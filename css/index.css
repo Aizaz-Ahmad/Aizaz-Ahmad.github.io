@@ -1,0 +1,19 @@
+main.container {
+  display: flex;
+  margin-top: 50px;
+}
+.text-container {
+  width: 50%;
+  padding-bottom: 40px;
+}
+.text-container h1 {
+  font-size: 69px;
+  margin-bottom: 0.6em;
+}
+.side-img {
+  width: 50%;
+  background-image: url('../img/web-development.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

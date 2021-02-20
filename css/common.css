@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f44040;
+  --secondary-color: black;
+  --primary-hover-color: #e23030;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.primary-color {
+  color: var(--primary-color);
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 25px 0px;
+  box-shadow: 0px 0px 10px #d4d4d4;
+}
+nav .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+.nav-links {
+  margin-left: auto;
+}
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  padding: 0px 20px;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.btn {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  transition: background-color 0.2s linear;
+}
+a.btn {
+  text-decoration: none;
+}
+input[type='submit'].btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+.btn:hover {
+  background-color: var(--primary-hover-color);
+}
+.underlined_heading {
+  color: var(--primary-color);
+}
+.underlined_heading_content {
+  width: max-content;
+  margin: 0 auto;
+}
+.underlined_heading_content h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.underlined_heading .line {
+  margin: 0 auto;
+  margin-top: 2px;
+  width: 60%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--primary-color);
+}
+form {
+  margin-top: 40px;
+}
+.input-group {
+  padding: 10px 0px;
+}
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+input:not([type='radio']):not([type='checkbox']):not([type='submit']),
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+  padding: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+}
+input:not([type='radio']):not([type='checkbox']):not([type='submit']):focus,
+textarea:focus {
+  box-shadow: 0px 4px 10px rgb(211, 211, 211);
+  outline: none;
+}
+textarea {
+  height: 100px;
+  resize: none;
+}
