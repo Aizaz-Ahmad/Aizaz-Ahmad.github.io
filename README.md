@@ -33,7 +33,8 @@
     ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)&nbsp;![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 ## 📫 How to reach me
 
-  [<img src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%"/>](https://twitter.com/aizazahmad0) &nbsp; [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/aizazahmad0/) &nbsp; [<img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" width="3.5%"/>](https://www.facebook.com/aizazahmad0/) &nbsp; [<img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" width="3.5%"/>](https://www.instagram.com/m.aizazahmad/) &nbsp; <a href="mailto:muhammadaizazahmad0@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%"/>
-## Stats
+  [<img src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%"/>](https://twitter.com/aizazahmad0) &nbsp; [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/aizazahmad0/) &nbsp; [<img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" width="3.5%"/>](https://www.facebook.com/aizazahmad0/) &nbsp; [<img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" width="3.5%"/>](https://www.instagram.com/m.aizazahmad/) &nbsp; <a href="mailto:muhammadaizazahmad0@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="3.5%"/></a>
 
-    [![Stats](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=radical)](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=radical)
+## Stats
+    
+[![Stats](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=gruvbox)](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=radical)
