@@ -37,4 +37,4 @@
 
 ## Stats
     
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aizaz-Ahmad&layout=compact)](https://github.com/Aizaz-Ahmad/github-readme-stats)&nbsp;&nbsp;&nbsp;[![Stats](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=gruvbox&count_private=true&include_all_commits=true)](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=radical&count_private=true)
+[![Stats](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=radical&count_private=true&include_all_commits=true&custom_title=My%20Github%20Stats)](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=radical&count_private=true)&nbsp;&nbsp;&nbsp;&nbsp;[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aizaz-Ahmad&layout=compact&theme=radical&custom_title=Most%20Used%20Languages%20In%20Repos&langs_count=8&count_private=true)](https://github.com/Aizaz-Ahmad/github-readme-stats)
