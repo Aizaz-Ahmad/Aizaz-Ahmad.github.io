@@ -37,4 +37,4 @@
 
 ## Stats
     
-[![Stats](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=gruvbox)](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=radical)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aizaz-Ahmad)](https://github.com/Aizaz-Ahmad/github-readme-stats)&nbsp;&nbsp;&nbsp;[![Stats](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=gruvbox)](https://github-readme-stats.vercel.app/api?username=Aizaz-Ahmad&show_icons=true&theme=radical)
