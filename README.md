@@ -1,5 +1,6 @@
 ## Hello, Folks <img width="40" height="40" src="assets/wave.gif" alt="Waving hand animated gif" />
 
+![Profile Visitor](https://gpvc.arturio.dev/Aizaz-Ahmad)
 ![Header Banner](/assets/header-banner.gif)
 
 ## About Me
