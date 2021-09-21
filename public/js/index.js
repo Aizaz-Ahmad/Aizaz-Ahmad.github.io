@@ -8,6 +8,8 @@ async function main() {
     'particles',
     'particles-config/background.json'
   );
+  document.getElementById('loader').style.display = 'none';
+  document.querySelector('.content-container').style.display = 'block';
   container.play();
 
   let typed2 = new TypeIt('#msg', {
