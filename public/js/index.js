@@ -31,4 +31,6 @@ async function main() {
     else container.play();
   });
 }
-main();
+document.addEventListener('readystatechange', () => {
+  if (document.readyState === 'complete') main();
+});

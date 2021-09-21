@@ -20,7 +20,7 @@ body {
   src: url('../assets/fonts/POLYA.otf');
 }
 @font-face {
-  font-family: 'kg';
+  font-family: 'kg-summer-blackout';
   src: url('../assets/fonts/KGSummerSunshineBlackout.ttf');
 }
 @keyframes textShadowAnimation {
@@ -83,7 +83,7 @@ h1 {
   font-size: 12rem;
   user-select: none;
   font-weight: normal;
-  font-family: 'kg';
+  font-family: 'kg-summer-blackout';
   text-shadow: 0px 0px;
   line-height: 1;
   animation-name: bounceIn;
