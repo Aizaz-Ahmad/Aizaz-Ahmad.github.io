@@ -5,3 +5,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'Ai-font';
+  src: url('../assets/fonts/Ai-font.ttf');
+}
+@font-face {
+  font-family: 'Polya';
+  src: url('../assets/fonts/POLYA.otf');
+}
+.content-container {
+  width: max-content;
+  margin-inline: auto;
+  margin-top: 50px;
+}
+h1 {
+  color: white;
+  font-size: 8rem;
+  font-weight: normal;
+  background-color: black;
+  background-blend-mode: multiply;
+  font-family: 'Ai-font';
+}
