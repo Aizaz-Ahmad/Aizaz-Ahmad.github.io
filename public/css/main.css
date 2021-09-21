@@ -5,6 +5,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
 @font-face {
   font-family: 'Ai-font';
   src: url('../assets/fonts/Ai-font.ttf');
@@ -15,38 +21,35 @@
 }
 @keyframes textShadowAnimation {
   0% {
-    text-shadow: 0 0 30px white;
-  }
-  25% {
-    text-shadow: 0 0 30px #e53935;
-  }
-  50% {
-    text-shadow: 0 0 30px #311b92;
-  }
-  75% {
-    text-shadow: 0 0 30px #1e88e5;
+    text-shadow: 0 0 white;
   }
   100% {
-    text-shadow: 0 0 30px #fdd835;
+    text-shadow: 0 0 #e53935;
   }
 }
 .content-container {
   width: max-content;
   margin-inline: auto;
-  margin-top: 50px;
 }
 h1 {
   color: white;
-  font-size: 7rem;
+  font-size: 9rem;
   user-select: none;
   font-weight: normal;
   font-family: 'Polya';
-  animation-name: textShadowAnimation;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  animation-timing-function: ease-in-out;
+  text-shadow: 0px 0px;
+  line-height: 1;
 }
-span.letter-initial {
+/* span.letter-initial {
   font-size: 9rem;
+} */
+.intro {
+  font-size: 1.5rem;
+  user-select: none;
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 1rem;
+  font-weight: 600;
+  /* text-shadow: 0px 0px; */
 }
