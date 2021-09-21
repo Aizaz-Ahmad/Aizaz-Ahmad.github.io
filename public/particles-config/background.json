@@ -2,7 +2,7 @@
   "autoPlay": true,
   "background": {
     "color": {
-      "value": "#000c19"
+      "value": "rgb(0,0,25)"
     },
     "image": "",
     "position": "",
@@ -442,7 +442,7 @@
       },
       "random": false,
       "size": false,
-      "speed": 2,
+      "speed": 1,
       "spin": {
         "acceleration": 0,
         "enable": false

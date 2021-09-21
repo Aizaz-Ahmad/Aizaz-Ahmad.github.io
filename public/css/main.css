@@ -19,6 +19,10 @@ body {
   font-family: 'Polya';
   src: url('../assets/fonts/POLYA.otf');
 }
+@font-face {
+  font-family: 'kg';
+  src: url('../assets/fonts/KGSummerSunshineBlackout.ttf');
+}
 @keyframes textShadowAnimation {
   0% {
     text-shadow: 0 0 white;
@@ -27,45 +31,119 @@ body {
     text-shadow: 0 0 #e53935;
   }
 }
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  animation-duration: calc(var(--animate-duration) * 0.75);
+  animation-name: bounceIn;
+}
 .content-container {
-  width: max-content;
+  max-width: 650px;
+  width: 90%;
   margin-inline: auto;
 }
 h1 {
   color: white;
-  font-size: 9rem;
+  font-size: 12rem;
   user-select: none;
   font-weight: normal;
-  font-family: 'Polya';
+  font-family: 'kg';
   text-shadow: 0px 0px;
   line-height: 1;
+  animation-name: bounceIn;
+  text-align: center;
+  animation-duration: 1s;
 }
 /* span.letter-initial {
-  font-size: 9rem;
+  font-size: 14rem;
 } */
 .intro {
   font-size: 2rem;
   user-select: none;
   text-align: center;
   letter-spacing: 4px;
-  font-family: 'Oswald', sans-serif;
-  margin-top: 1rem;
+  font-family: 'Ai-font', sans-serif;
+  margin-top: 3rem;
   font-weight: 600;
 }
-.explore-projects {
-  margin-top: 100px;
+#msg {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: consolas;
+  text-align: center;
+  line-height: 1.6;
 }
-.btn {
-  display: flex;
-  text-decoration: none;
+#msg a {
   color: white;
-  background-color: black;
-  width: max-content;
-  padding: 10px 20px;
-  font-family: sans-serif;
-  border-radius: 999px;
+  text-decoration-thickness: 3px;
+  text-decoration-color: white;
 }
-.btn-text {
+.github-button {
   line-height: 1;
-  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 10px;
+  }
+  #msg {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 7.5px;
+  }
 }
