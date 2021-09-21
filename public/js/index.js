@@ -10,6 +10,9 @@ async function main() {
   );
   container.play();
 
+  new TypeIt('.intro', {
+    speed: 75,
+  }).go();
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden') container.pause();
     else container.play();
