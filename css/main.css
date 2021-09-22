@@ -16,6 +16,7 @@ body {
 @font-face {
   font-family: 'Ai-font';
   src: url('../assets/fonts/Ai-font.ttf');
+  font-display: block;
 }
 @font-face {
   font-family: 'Polya';
@@ -24,6 +25,7 @@ body {
 @font-face {
   font-family: 'kg-summer-blackout';
   src: url('../assets/fonts/KGSummerSunshineBlackout.ttf');
+  font-display: block;
 }
 @keyframes textShadowAnimation {
   0% {
