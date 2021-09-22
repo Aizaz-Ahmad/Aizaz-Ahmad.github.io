@@ -18,23 +18,13 @@ body {
   src: url('../assets/fonts/Ai-font.ttf');
   font-display: block;
 }
-@font-face {
-  font-family: 'Polya';
-  src: url('../assets/fonts/POLYA.otf');
-}
+
 @font-face {
   font-family: 'kg-summer-blackout';
   src: url('../assets/fonts/KGSummerSunshineBlackout.ttf');
   font-display: block;
 }
-@keyframes textShadowAnimation {
-  0% {
-    text-shadow: 0 0 white;
-  }
-  100% {
-    text-shadow: 0 0 #e53935;
-  }
-}
+
 @keyframes bounceIn {
   from,
   20%,
@@ -90,10 +80,6 @@ body {
   margin: auto;
 }
 
-.bounceIn {
-  animation-duration: calc(var(--animate-duration) * 0.75);
-  animation-name: bounceIn;
-}
 .content-container {
   display: none;
   max-width: 650px;
@@ -112,9 +98,7 @@ h1 {
   text-align: center;
   animation-duration: 1s;
 }
-/* span.letter-initial {
-  font-size: 14rem;
-} */
+
 .intro {
   font-size: 2rem;
   user-select: none;
